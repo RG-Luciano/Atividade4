@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprovado ou não</title>
+</head>
+<body>
+    <script>
+        var nota1 = Number(window.prompt("Digite nota 1: "));
+        var nota2 = Number(window.prompt("Digite nota 2: "));
+        var nota3 = Number(window.prompt("Digite nota 3: "));
+        var media;
+        media = (nota1 + nota2 + nota3) / 3;
+        var situacao = (media < 7)? 'Reprovou': 'Passou'
+        window.alert(situacao+ " com media "+ media)
+
+    </script>
+</body>
+</html>
